@@ -44,6 +44,6 @@ module tt_um_evm (
     );  
 
   // List all unused inputs to prevent warnings
-    wire _unused = &{ena, uio[7:2], 1'b0};
+    wire _unused = &{ena, uio_in[7:2], 1'b0};
 
 endmodule
